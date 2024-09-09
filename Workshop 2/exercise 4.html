@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Workshop 2</title>
+		<link rel="stylesheet" href="css/styles.css">
+	</head>
+    <body>
+        <h2>Student checkpoint</h2>
+        <button onclick="students()">Are you a student?</button>
+        <p id="message"></p>
+
+    <script>
+        function students(){
+            var yesStudent = confirm("Are you a student?");
+            var message = document.getElementById("message");
+
+            if (yesStudent) {
+                document.write("Welcome student")
+            }
+            else {
+                document.write("Sorry, this page is for students only")
+            }
+        }
+    </script>
+    </body>
+</html>
