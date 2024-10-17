@@ -1,1 +1,1 @@
-# Web-sovellusten-kehitt-minen-Javascriptill-
+# Web-sovellusten-kehittaminen-Javascriptill-
